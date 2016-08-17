@@ -1,4 +1,4 @@
-FROM cachethq/docker:2.3.7
+FROM cachethq/docker:2.3.10
 
 RUN sudo apt-get update
 RUN sudo apt-get -q -y install nginx
